@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: antiquewhite;
+}
+header {
+    background-image: linear-gradient(to top, rgb(1, 51, 26), rgb(2, 167, 104));
+    color: white;
+    padding: 5px;
+    font-family: "Bebas Neue", sans-serif;
+    margin: -8px;
+}
+#titulo {
+    text-align: center;
+}
+#subt{
+    text-align: center;
+    width: 450px;
+    height: 90px;
+    margin: auto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+
+  }
+  nav li {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: normal;
+  }
+  nav li:hover {
+    background-color: rgba(0, 0, 0, 0.452);
+  }
+main {
+   padding: 50px;
+    margin: 8px 250px;
+    background-color: white;
+    width: auto;
+}
+#unico {
+    font-family: 'droid';
+}
+#imgdandroids{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#irina{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bugdroid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h2droid{
+    font-family: 'droid';
+    background-image: linear-gradient(to right, rgba(0, 255, 0, 0.219), white);
+    color: rgb(29, 102, 92);
+}
+p {
+    text-indent: 2em;
+
+}
+#video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #018a2e9d;
+    height: 60vh;
+
+  }
+
+  #video2 {
+    width: 1000px;
+    height: 500px;
+    border: none;
+  }
+.link {
+    color: rgb(3, 117, 37);
+    text-decoration: none;
+}
+#extra {
+    background-color: rgba(0, 155, 95, 0.151);
+    border-radius: 0px 0px 10px 10px;
+}
+h3 {
+    background-color: rgba(0, 151, 106, 0.89);
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+    padding: 5px;
+}
+footer {
+    background-color: green;
+    text-align: center;
+    color: white;
+}

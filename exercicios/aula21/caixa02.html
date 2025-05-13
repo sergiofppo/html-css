@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ppt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: gray;
+        }
+        nav {
+            background-color: beige;
+            padding: 3px;
+            box-shadow: 4px 6px 7px 1px rgba(0, 0, 0, 0.37);
+            border-radius: 17px;
+        }
+        header {
+            background-color: aliceblue;
+            padding: 20px 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: aquamarine;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 35px 0px 35px 0px;
+        }
+        article {
+            background-color: blue;
+        }
+        article > aside {
+            background-color: antiquewhite;
+        }
+        footer{
+            background-color: black;
+            color: azure;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: normal;
+            font-size: 0.5em;
+        }
+        section{
+            background-color: brown;
+        }
+        #bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: blueviolet;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site
+            <nav>
+              <a href="#">link</a>
+              <a href="#">link</a>
+              <a href="#">link</a>
+              <a href="#">link</a>
+              <a href="#">link</a>
+
+            </nav>
+        </h1>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes e tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Ceub</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit itaque cum aliquam sit, minus incidunt aperiam reprehenderit ducimus temporibus minima delectus voluptate excepturi possimus, debitis sed dolore aliquid ea obcaecati?</p>
+                <aside>
+                    <p>Artido escrito por Sergio Mendes Filippo</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
