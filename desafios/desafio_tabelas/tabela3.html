@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio das Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: auto;
+            height: auto;
+            border-collapse: collapse;
+        }
+        th, td, tr {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .media {
+            background-color: grey;
+        }
+        th {
+            background-color: grey;
+        }
+        .area {
+            background-color: white;
+        }
+        #conteiner {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <table>
+            <caption>BOLETIM</caption>
+            <tr>
+                <th rowspan="2">Area</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Media</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+            <tr>
+                <th rowspan="4" class="area">Exatas</th>
+                <td>Matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="media">Media de Exatas</td>
+                <td style="background-color: grey;">0.0</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <th rowspan="2" class="area">Humanas</th>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="media">Media de Humanas</td>
+                <td style="background-color: grey;">0.0</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
