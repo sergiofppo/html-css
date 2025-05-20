@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 7</title>
+</head>
+<body>
+    <h1>Ex de form</h1>
+    <form action="#" method="post">
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="Estado" id="iest">
+                <optgroup label="Sudeste">
+                    <option value="SP">Sao paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+
+                    <optgroup label="Centro Oeste">
+                        <option value="DF">Distrito Federal</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                    </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissao</label>
+            <input type="text" name="prof" id="iprof" list="lista">
+            <datalist id="lista">
+                <option value="ADM">Adminastro</option>
+                <option value="JGR">Jogador</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imens">Mensagem:</label><br>
+            <textarea name="mens" id="imens" cols=25 rows="1"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
