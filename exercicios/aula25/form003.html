@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 03</title>
+</head>
+<body>
+    <h1>Teste de Form</h1>
+    <form action="#" method="get" autocomplete="off">
+        <p>
+            <label for="imatricula">Matricula:</label>
+            <input type="text" name="matricula" id="imatricula"  max="10" minlength="10" placeholder="Matricula do Aluno" size="11">
+        </p>
+        <p>
+            <label for="imedia">Media:</label>
+            <input type="number" name="media" id="imedia" placeholder="0 a 10" max="10" min="0" step="0.1" value="5">
+        </p>
+        <p>
+            <label for="imes">Periodo Letivo:</label>
+            <input type="month" name="mes" id="imes" value="2025-05">
+        </p>
+        <p>
+            <label for="idia">Dia da Prova</label>
+            <input type="date" name="Dia" id="idia">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="text" name="senha" id="isenha" placeholder="Senha do Aluno" size="9">
+        </p>
+        <p>
+            <label for="ihora">Horario da prova:</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
